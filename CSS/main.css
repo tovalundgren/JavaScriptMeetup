@@ -72,9 +72,3 @@ footer ul li:hover{
     color: #dbdbdb;
     cursor: pointer;
 }
-
-/* ----- styling till schedule ----- */
-
-.schedule-intro {
-    margin-top: 1.5em;
-}
