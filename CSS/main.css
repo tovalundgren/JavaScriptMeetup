@@ -57,15 +57,18 @@ footer ul {
 }
 .main-content li {
   color: #161618;
-  padding: 1rem;
+  padding: 1rem 5rem;
   font-size: 1.2rem;
+}
+h4 {
+  color: #1f5c90;
 }
 li {
   padding: 1rem;
   font-size: 1.2rem;
 }
 li:hover {
-  color: #6962cf;
+  color: #6f6e7e;
 
   transition: all 0.4s ease;
 }

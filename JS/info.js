@@ -18,12 +18,16 @@ function createInfo(infos) {
     infos.forEach(function (info) {
             
         const infoList = document.createElement('li');
-        infoList.textContent = `${info.list}: ${info.info} `;        
-        // Skapar en class till min li
-        //infoList.className.add('infoLi');
+        const infoListHeader = document.createElement('h4');
+        const infoListPara = document.createElement('p');
 
-        mainContent.appendChild(infoList);                
+        infoListHeader.textContent = `${info.list}:`; 
+        infoListPara.textContent = info.info;  
+
+        infoList.appendChild(infoListHeader);  
+        infoList.appendChild(infoListPara); 
         console.log(info)
+        mainContent.appendChild(infoList); 
     });    
 }
 
