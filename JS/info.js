@@ -6,6 +6,8 @@ async function getInfo() {
     const response = await fetch("../JSON/info.json");
     if (response.ok) {
         const json = await response.json();
+
+        // Tilldealr variabeln infos värdet av variabeln json 
         const infos = json;        
         createInfo(json);                
     } else {
