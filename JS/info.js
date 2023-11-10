@@ -2,6 +2,7 @@ const mainContent = document.querySelector('.main-content');
 
 // Fetch
 async function getInfo() {
+    console.log("getInfo start")
     const response = await fetch("../JSON/info.json");
     if (response.ok) {
         const json = await response.json();
@@ -25,5 +26,7 @@ function createInfo(infos) {
     
 }
 
-getInfo();
 
+function hej(){
+    console.log("hej");
+}
