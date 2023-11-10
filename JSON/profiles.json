@@ -1,0 +1,32 @@
+{
+    "profiles" [
+        {
+            "name": "Sandra Thompson", 
+            "topic": "Diversity and Inclusion in Tech", 
+            "description":"Discussing the importance of fostering diversity and inclusion within the JavaScript and tech communities.", 
+            "experiences": "In the tech realm, Sandea Thompson, a resilient Black woman, has weathered the challenges of being a minority, turning adversity into empowerment. Her journey is a testament to both her technical prowess and her commitment to fostering diversity and inclusion in the ever-evolving landscape of technology.", 
+            "profilePicture": "../Bilder/alex-starnes-PK_t0Lrh7MM-unsplash.jpg"
+        },
+        {
+            "name": "Blake Saint",
+            "topic": "Testing in JavaScript",
+            "description": "Join Blake Saint as he navigate the diverse world of JavaScript testing strategies. From unit tests to end-to-end solutions, discover practical insights and tools to enhance the reliability of your code. Whether you're a seasoned developer or just starting out, this talk promises valuable takeaways for crafting effective testing strategies in your JavaScript projects.",
+            "experiences": "In the realm of JavaScript testing, Blake Saint, a seasoned professional, shares a firsthand account of navigating the intricacies of ensuring code integrity and reliability. Through his experiences, he offers practical insights and strategies, enriching the audience's understanding of effective testing practices in the dynamic landscape of JavaScript development.",
+            "profilePicture": "../Bilder/mikhail-fesenko-aVEaY6hWlCo-unsplash.jpg"
+        },
+        {
+            "name": "Clara Anderson",
+            "topic": "Web Accessibility Best Practices",
+            "description": "A deep dive into web accessibility standards and techniques, emphasizing the creation of web applications that are usable by everyone.",
+            "experiences": "As a woman with a visual impairment working in tech, Clara Andersons journey underscores the pivotal role of web accessibility. Navigating the digital realm, she has encountered both triumphs and challenges, emphasizing the critical need for inclusive design and technological solutions that ensure equal access for individuals with visual impairments. Her experiences underscore the importance of fostering a more accessible and diverse tech landscape, where everyone, regardless of their abilities, can contribute and thrive.",
+            "profilePicture": "../Bilder/tamara-bellis-JoKS3XweV50-unsplash.jpg"
+        },
+        {
+            "name": "Christopher Smith",
+            "topic": "Cybersecurity in JavaScript Applications",
+            "description": "Address security concerns in JavaScript applications and share best practices for securing code and data.",
+            "experiences": "In the dynamic world of cybersecurity and JavaScript, Christopher Smith, a seasoned professional, shares invaluable insights from his experiences. Safeguarding digital landscapes, he navigates the ever-evolving challenges, offering practical strategies and expertise in securing JavaScript applications against cyber threats.",
+            "profilePicture": "../Bilder/good-faces-J1r-0xdoEZY-unsplash.jpg"
+        }
+    ]
+}
