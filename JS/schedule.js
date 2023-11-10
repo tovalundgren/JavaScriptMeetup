@@ -41,5 +41,3 @@ function showSchedule(schedules){
         mainContent.appendChild(mainDiv); 
     });
 }
-
-getSchedule();
