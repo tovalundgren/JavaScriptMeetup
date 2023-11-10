@@ -1,0 +1,11 @@
+.schedule-div{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30%;
+    text-align: left;
+    color: #0f2e48;
+}
+
+.schedule-intro {
+    margin-top: 1.5em;
+}
