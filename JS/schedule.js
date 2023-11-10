@@ -19,7 +19,8 @@ function showSchedule(schedules){
         //hämtar innehåll till H3 element från JSON:
         newH3.textContent = event.Event;
         //döp klass för CSS
-        newH3.classList.add = 'schedule-header';
+        newH3.classList.add('schedule-intro');
+        //newH3.classlist = 'schedule-intro'; fungerar på samma sätt som ovan
         //h3 existeras, men är ej kopplad till HTML:
         mainContentSchedule.appendChild(newH3);
 
