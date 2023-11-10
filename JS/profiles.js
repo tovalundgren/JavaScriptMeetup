@@ -66,5 +66,3 @@ function showProfile(json) {
         console.log(newDiv);
     });
 }
-
-getJSON();
