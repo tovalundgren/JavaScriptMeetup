@@ -42,6 +42,6 @@ function createInfo(infos) {
 }
 
 
-getInfo();
+//getInfo();
 
 
