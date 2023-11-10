@@ -1,0 +1,20 @@
+.container-div {
+    display: flex;
+    
+    border: solid;
+    /* max-width: 40vw; */
+}
+
+.profile-card {
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+    max-height: 70vh;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: solid 3px ;
+}
+
