@@ -1,4 +1,4 @@
-const navSchedule = document.querySelector("#nav-schedule"); //hämtar element från index.HTML
+const navSchedule = document.querySelector(".main-content"); //hämtar element från index.HTML
 
 async function getSchedule (){
     const response = await fetch("../JSON/schedule.json");
@@ -24,12 +24,12 @@ function showSchedule(schedules){
         navSchedule.appendChild(newH3);
 
         const timeP = document.createElement('p');
-        timeP.textContent = event.Time;
+        timeP.textContent = "Time: " + event.Time;
         timeP.classList.add = "schedule-time";
         navSchedule.appendChild(timeP);
 
         const locationP = document.createElement('p');
-        locationP.textContent = event.Location;
+        locationP.textContent = "Location: " + event.Location;
         locationP.classList.add = "schedule-location";
         navSchedule.appendChild(locationP);
 
