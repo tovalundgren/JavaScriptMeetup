@@ -18,20 +18,19 @@ function showSchedule(schedules){
         const newH3 = document.createElement('h3');
         //hämtar innehåll till H3 element från JSON:
         newH3.textContent = event.Event;
-        //döp klass för CSS
+        //döp klass för styling i CSS
         newH3.classList.add('schedule-intro');
-        //newH3.classlist = 'schedule-intro'; fungerar på samma sätt som ovan
         //h3 existeras, men är ej kopplad till HTML:
         mainContentSchedule.appendChild(newH3);
 
         const timeP = document.createElement('p');
         timeP.textContent = "Time: " + event.Time;
-        timeP.classList.add = "schedule-time";
+        timeP.classList.add('schedule-time');
         mainContentSchedule.appendChild(timeP);
 
         const locationP = document.createElement('p');
         locationP.textContent = "Location: " + event.Location;
-        locationP.classList.add = "schedule-location";
+        locationP.classList.add('schedule-location');
         mainContentSchedule.appendChild(locationP);
 
         console.log(newH3);
