@@ -1,17 +1,17 @@
 [
     {
-      "Välkomstmingel: Öppningsevent": "Inled kvällen med ett interaktivt och inbjudande välkomstmingel skapat med JavaScript events."
+      "list": "Öppningsevent", "info": "Inled kvällen med ett interaktivt och inbjudande välkomstmingel skapat med JavaScript events."
     },
     {
-      "Innovativ Workshop: JavaScript Event Handling": "Delta i en hands-on workshop för att lära dig senaste trenderna och bästa praxis inom JavaScript event handling."
+      "list": "JavaScript Event Handling","info": "Delta i en hands-on workshop för att lära dig senaste trenderna och bästa praxis inom JavaScript event handling."
     },
     {
-      "Live Demokodning: Spännande JavaScript Events": "Upplev kraften i JavaScript genom live demokodning av inspirerande events och få insikter för din egen kodning."
+      "list": "Spännande JavaScript Events","info": "Upplev kraften i JavaScript genom live demokodning av inspirerande events och få insikter för din egen kodning."
     },
     {
-      "Q&A Session: Möt JavaScript Gurus": "Få svar på dina frågor och interagera med experter under vår Q&A session om JavaScript events."
+      "list": "Möt JavaScript Gurus","info": "Få svar på dina frågor och interagera med experter under vår Q&A session om JavaScript events."
     },
     {
-      "Avslutningsceremoni: Framtiden för JavaScript Events": "Spana in i framtiden under avslutningsceremonin och få en sammanfattning av dagens händelser och framtidens trender inom JavaScript event handling."
+      "list": "Framtiden för JavaScript Events","info": "Spana in i framtiden under avslutningsceremonin och få en sammanfattning av dagens händelser och framtidens trender inom JavaScript event handling."
     }
   ]

@@ -1,4 +1,4 @@
-const mainContent = document.getElementsByClassName('.main-content');
+const mainContent = document.querySelector('.main-content');
 
 // Fetch
 async function getInfo() {
@@ -22,11 +22,12 @@ function createInfo(infos) {
     infos.forEach(function (info) {
             
         const infoList = document.createElement('li');
-        infoList.textContent = `{${info}}: list {${info}}: info`;
+        infoList.textContent = `${info.list}: ${info.info} `;
         
         //console.log(info.list)
 
-        //mainContent.appendChild(infoList);
+        mainContent.appendChild(infoList);
+        //console.log(`${info.list}: ${info.info} `)
         //console.log(infos);
 
         //console.log(info);
