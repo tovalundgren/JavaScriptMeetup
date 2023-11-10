@@ -42,8 +42,3 @@ function createInfo(infos) {
         mainContent.appendChild(infoList); 
     });    
 }
-
-
-//getInfo();
-
-
