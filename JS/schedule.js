@@ -5,8 +5,6 @@ async function getSchedule (){
 
     const schedules = await response.json();
 
-    console.log(schedules);
-
     const scheduleList = document.createElement("ul");
 
     showSchedule(schedules);
@@ -36,10 +34,6 @@ function showSchedule(schedules){
         locationP.classList.add('schedule-location');
         mainDiv.appendChild(locationP);
 
-        console.log(newH3);
-
         mainContent.appendChild(mainDiv); 
     });
 }
-
-getSchedule();
