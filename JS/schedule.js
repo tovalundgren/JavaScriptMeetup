@@ -1,4 +1,4 @@
-const navSchedule = document.querySelector(".main-content"); //hämtar element från index.HTML
+const mainContentSchedule = document.querySelector(".main-content"); //hämtar element från index.HTML
 
 async function getSchedule (){
     const response = await fetch("../JSON/schedule.json");
@@ -21,17 +21,17 @@ function showSchedule(schedules){
         //döp klass för CSS
         newH3.classList.add = 'schedule-header';
         //h3 existeras, men är ej kopplad till HTML:
-        navSchedule.appendChild(newH3);
+        mainContentSchedule.appendChild(newH3);
 
         const timeP = document.createElement('p');
         timeP.textContent = "Time: " + event.Time;
         timeP.classList.add = "schedule-time";
-        navSchedule.appendChild(timeP);
+        mainContentSchedule.appendChild(timeP);
 
         const locationP = document.createElement('p');
         locationP.textContent = "Location: " + event.Location;
         locationP.classList.add = "schedule-location";
-        navSchedule.appendChild(locationP);
+        mainContentSchedule.appendChild(locationP);
 
         console.log(newH3);
     });
