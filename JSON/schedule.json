@@ -1,0 +1,44 @@
+{"schedule":
+[
+    {"Event": "Breakfast",
+    "Time": "08:00-09:00",
+    "Location": "The Social Bar & Bistro"
+    },
+    {"Event": "Sandra Thompson: Diversity and Inclusion in Tech",
+    "Time": "09:00-09:45",
+    "Location": "Jenny1"
+    },
+    {"Event": "Blake Saint: Testing in JavaScript",
+    "Time": "10:00-10:45",
+    "Location": "Vävstolen"
+    },
+    {"Event": "JavaScript Workshop",
+    "Time": "11:00-12:00",
+    "Location": "Varptråden"
+    },
+    {"Event": "Lunch",
+    "Time": "12:00",
+    "Location": "The Social Bar & Bistro"
+    },
+    {"Event": "Clara Andersson: Web Accessibility Best Practices",
+    "Time": "13:00-13:45",
+    "Location": "Jenny1"
+    },
+    {"Event": "Christopher Smith: Cybersecurity in JavaScript Applications",
+    "Time": "14:00-14:45",
+    "Location": "Vävstolen"
+    },
+    {"Event": "Fika",
+    "Time": "14:45-15:15",
+    "Location": "The Social Bar & Bistro"
+    },
+    {"Event": "Hackathon: the best JavaScript hack in under 20 lines of code!",
+    "Time": "15:15-17:00",
+    "Location": "Väv"
+    },
+    {"Event": "Dinner and Hackathon Award!",
+    "Time": "18:00",
+    "Location": "Pizzeria Mums"
+    }
+]
+}
