@@ -14,6 +14,9 @@ async function getSchedule (){
 
 function showSchedule(schedules){
     schedules.schedule.forEach(event => {
+        const mainDiv = document.createElement('div');
+        mainDiv.classList.add('schedule-div');
+        
         //skapa ett H3 element HTML:
         const newH3 = document.createElement('h3');
         //hämtar innehåll till H3 element från JSON:
@@ -21,19 +24,21 @@ function showSchedule(schedules){
         //döp klass för styling i CSS
         newH3.classList.add('schedule-intro');
         //h3 existeras, men är ej kopplad till HTML:
-        mainContentSchedule.appendChild(newH3);
+        mainDiv.appendChild(newH3);
 
         const timeP = document.createElement('p');
         timeP.textContent = "Time: " + event.Time;
         timeP.classList.add('schedule-time');
-        mainContentSchedule.appendChild(timeP);
+        mainDiv.appendChild(timeP);
 
         const locationP = document.createElement('p');
         locationP.textContent = "Location: " + event.Location;
         locationP.classList.add('schedule-location');
-        mainContentSchedule.appendChild(locationP);
+        mainDiv.appendChild(locationP);
 
         console.log(newH3);
+
+        mainContent.appendChild(mainDiv); 
     });
 }
 
