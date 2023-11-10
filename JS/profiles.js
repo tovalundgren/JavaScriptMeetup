@@ -1,11 +1,9 @@
-const mainContent = document.querySelector(".main-content")
-
 async function getJSON() {
     const response = await fetch("../JSON/profiles.json");
     // om vi får korrekt koppling då ska fäljande köras
     if (response.ok) {
         const json = await response.json();
-        showProfile(json)
+        showProfile(json);
     } else {
         // för att veta vad det är för fel
         console.log("HTTP-error:" + response.status)
@@ -18,17 +16,13 @@ function showProfile(json) {
     //hela diven för sektionen 
     const containerDiv = document.createElement('div');
     containerDiv.classList.add('container-div');
-
     mainContent.appendChild(containerDiv);
 
     json.profiles.forEach(profile => {
-
-
         // card divarna
         const newDiv = document.createElement('div');
         newDiv.classList.add('profile-card');
        
-
         // för att skapa ett element h3 i detta fall
         const newH3 = document.createElement('h3');
         // för att lägga innehåll i h3 från JSON key "name" med dess värde 
@@ -37,7 +31,6 @@ function showProfile(json) {
         newH3.classList.add = 'card-header';
         // för att koppla h3 till vår html fil, så det inte ligger ute i ingenstans
         newDiv.appendChild(newH3);
-        console.log(newH3);
 
        const newH4 = document.createElement('h4');
         newH4.textContent = profile.topic;
@@ -58,11 +51,7 @@ function showProfile(json) {
         newImg.src = profile.profilePicture;
         newImg.classList.add('profile-img');
         newDiv.appendChild(newImg);
-
-
-
         
         containerDiv.appendChild(newDiv);
-        console.log(newDiv);
     });
 }

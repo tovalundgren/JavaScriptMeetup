@@ -14,5 +14,6 @@ navSchedule.addEventListener("click", function () {
 
 navSpeakers.addEventListener("click", function () {
     mainContent.innerHTML = "";
+    console.log("speaker");
     getJSON();
 });
