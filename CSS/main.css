@@ -19,7 +19,7 @@ li{
 
 .main-section{
     background-color: var(--bg-color);
-    height: 90vh;
+    min-height: 100%;
     width:100%;
 }
 
@@ -49,9 +49,8 @@ li:hover{
 .primary-heading{
     text-align: center;
     font-size: 56px;
-    position: relative;
-    top: 30px;
     color: #0f2e48;
+    margin: 2vw auto
 }
 
 
