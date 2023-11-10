@@ -55,6 +55,11 @@ footer ul {
   gap: 30px;
   background-color: #0f2e48;
 }
+.main-content li {
+  color: #6962cf;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
 li {
   padding: 1rem;
   font-size: 1.2rem;
@@ -69,6 +74,7 @@ footer ul li {
   font-size: 20px;
   color: #fafafa;
 }
+
 footer ul li:hover {
   color: #dbdbdb;
   cursor: pointer;
@@ -78,4 +84,9 @@ footer ul li:hover {
 
 .schedule-intro {
   margin-top: 1.5em;
+}
+
+footer ul li:hover {
+  color: #dbdbdb;
+  cursor: pointer;
 }

@@ -16,14 +16,19 @@ async function getInfo() {
 function createInfo(infos) {
     infos.forEach(function (info) {
             
-        const infoList = document.createElement('li');
-        infoList.textContent = `${info.list}: ${info.info} `;                
+        const infoList = document.createElement('li');y
+        infoList.textContent = `${info.list}: ${info.info} `;
+        
+        // Skapar en class till min li
+        //infoList.className.add('infoLi');
+
         mainContent.appendChild(infoList);                
-        console.log(infoList)
+        console.log(info-li)
 
     });
     
 }
 
 getInfo();
+infoLi();
 
